@@ -39,7 +39,7 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/audioloop.git
+   git clone https://github.com/dtiberio/Gemini_2.0_Live_API_Tutorials.git
    cd audioloop
    ```
 
@@ -47,7 +47,7 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
 
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate.bat
    ```
 
 3. **Install Dependencies**
@@ -74,6 +74,8 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
    GEMINI_API_KEY=your_api_key_here
    GOOGLE_API_KEY=your_api_key_here
    ```
+
+   I've found that the documentation sometimes mentions one key or the other, but the later seems to be the one required by the lates `genai` API.  
 
 ## Usage
 
