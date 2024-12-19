@@ -2,6 +2,11 @@
 
 **AudioLoop** is a Python module designed for real-time audio, video, and text streaming, enabling seamless bi-directional communication with Google's Gemini AI model. Leveraging asynchronous programming with `asyncio`, `AudioLoop` facilitates real-time audio playback, video capture, and textual interactions, making it an ideal choice for applications requiring interactive AI-driven multimedia capabilities.  
 The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. Please check the References below.  
+The main differences from live_api_starter.py are:  
+- the AudioLoop class having its input and output methods implemented as async queues to allow interaction from GUI driven apps, such as from Panel or TKinter.  
+- added logging to facilitate troubleshooting  
+- added the option to select the Gemini pre-generated voide model  
+
 
 ## Table of Contents
 
