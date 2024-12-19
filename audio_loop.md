@@ -40,7 +40,7 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
 
    ```bash
    git clone https://github.com/dtiberio/Gemini_2.0_Live_API_Tutorials.git
-   cd audioloop
+   cd Gemini_2.0_Live_API_Tutorials
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
@@ -68,14 +68,14 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
 
 4. **Set Up Environment Variables**
 
-   Create a `.env` file in the project root directory and add your Google GenAI API credentials:
+   Create a `.env` file in the project root directory and add your Google Gemini API credentials:
 
    ```env
    GEMINI_API_KEY=your_api_key_here
    GOOGLE_API_KEY=your_api_key_here
    ```
 
-   I've found that the documentation sometimes mentions one key or the other, but the later seems to be the one required by the lates `genai` API.  
+   I've found that the documentation sometimes mentions one key or the other, but the later, GOOGLE_API_KEY, seems to be the one required by the latest `genai` API.  
 
 ## Usage
 
