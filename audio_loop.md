@@ -72,6 +72,7 @@ The code is adapted from the Gemini 2.0 cookbook example: live_api_starter.py. P
 
    ```env
    GEMINI_API_KEY=your_api_key_here
+   GOOGLE_API_KEY=your_api_key_here
    ```
 
 ## Usage
